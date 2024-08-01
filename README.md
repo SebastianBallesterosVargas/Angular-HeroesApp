@@ -19,3 +19,15 @@ Importante tener instalada la librería de `json-server` en su versión `0.17.4`
 ## Routing
 
 Rutas principales, Rutas hijas y lazyloads
+
+## ReactiveForms
+
+Formularios reactivos `heroes/pages/new-page`
+
+## CRUD
+
+En heroes.service `Create | Read | Update | Delete`
+
+## ReactiveX Rxjs
+
+En el page `heroes/pages/new-page.component.ts` se encuentra la mayoría de logica referente a `Rxjs` se encuentra en el método `onConfirmDeletion()`

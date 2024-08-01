@@ -13,8 +13,8 @@ export class HeroImagePipe implements PipeTransform {
 
     transform({ id, alt_image }: Hero): string {
         if (!id && !alt_image) return this.noImage
-            
-        if (!id) return this.assetsRoute(alt_image);
+
+        if (alt_image) return alt_image;
 
         return this.assetsRoute(id);
     }

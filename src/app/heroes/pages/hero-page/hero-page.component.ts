@@ -28,7 +28,7 @@ export class HeroPageComponent implements OnInit {
 
         this.hero = hero;
         return;
-      })
+      });
   }
 
   goBack(): void {

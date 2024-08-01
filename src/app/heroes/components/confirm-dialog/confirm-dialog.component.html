@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>¿Estás seguro?</h2>
+<mat-dialog-content>
+    Estás a punto de eliminar a {{ data.superhero }}.
+</mat-dialog-content>
+<mat-dialog-actions class="flex justify-content-between">
+    <button mat-button mat-dialog-close (click)="onNoClick()">Cancelar</button>
+    <button mat-button mat-dialog-close cdkFocusInitial (click)="onConfirm()">Confirmar</button>
+</mat-dialog-actions>
+
