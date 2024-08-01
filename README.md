@@ -1,27 +1,21 @@
-# HeroesApp
+# Heroes App version 18.1.1.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+Arquitectura de rutas de un proyecto a media y gran escala
 
-## Development server
+## Dev
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clonar proyecto
+2. Ejecutar `npm install | npm i`
+3. Levantar backend `npm run back`
 
-## Code scaffolding
+## Json Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Importante tener instalada la librería de `json-server` en su versión `0.17.4`.
 
-## Build
+`npm install --save-dev json-server@0.17.4`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`npm i -D json-server@0.17.4`
 
-## Running unit tests
+## Routing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Rutas principales, Rutas hijas y lazyloads

@@ -10,7 +10,7 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
 
 const childrenRoutes: Routes = [
   { path: 'list', component: ListPageComponent },
-  { path: 'new', component: NewPageComponent },
+  { path: 'new-hero', component: NewPageComponent },
   { path: 'edit/:id', component: NewPageComponent },
   { path: 'search', component: SearchPageComponent },
   { path: ':id', component: HeroPageComponent },
