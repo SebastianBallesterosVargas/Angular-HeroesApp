@@ -13,7 +13,7 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
   declarations: [
     LayautPageComponent,
     LoginPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
   ],
   imports: [
     AuthRoutingModule,

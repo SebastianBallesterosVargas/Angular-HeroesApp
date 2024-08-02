@@ -31,3 +31,7 @@ En heroes.service `Create | Read | Update | Delete`
 ## ReactiveX Rxjs
 
 En el page `heroes/pages/new-page.component.ts` se encuentra la mayoría de logica referente a `Rxjs` se encuentra en el método `onConfirmDeletion()`
+
+# Guards
+
+Guards de autenticación, importados en las rutas root `app-routing.module.ts` de la app y creados en el folder de `auth`
